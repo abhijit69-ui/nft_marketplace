@@ -6,7 +6,6 @@ import Link from 'next/link';
 
 import images from '../assets';
 import { Button } from '.';
-import { route } from 'next/dist/server/router';
 
 const MenuItems = ({ isMobile, active, setActive }) => {
   const generateLink = (i) => {
